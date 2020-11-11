@@ -18,3 +18,10 @@ How many even ended numbers result from multiplying two four-digit numbers?
 
 [Solution](even-end/even-end.go)
 
+## Maximal value
+**Problem**
+
+Given an unordered slice of values called nums, print the maximal value in the slice.
+
+[Solution](max-val/max-val.go)
+
