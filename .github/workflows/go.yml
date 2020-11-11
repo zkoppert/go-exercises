@@ -30,5 +30,6 @@ jobs:
         fi
 
     - name: Build
-      run: cd even-end; go build -v .
-           cd ../fizzbuzz; go build -v .
+      run:  |
+       cd even-end; go build -v .;
+       cd ../fizzbuzz; go build -v .;
