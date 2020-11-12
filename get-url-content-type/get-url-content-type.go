@@ -20,7 +20,7 @@ func contentType(url string) (string, error) {
 }
 
 func main() {
-	url := "https://github.com/"
+	const url = "https://github.com/"
 	contentTypeValue, getError := contentType(url)
 	if getError != nil {
 		fmt.Printf("ERROR: Unable to GET URl\n")
