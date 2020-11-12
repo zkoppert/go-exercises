@@ -25,3 +25,10 @@ Given an unordered slice of values called nums, print the maximal value in the s
 
 [Solution](max-val/max-val.go)
 
+## Maximal value
+**Problem**
+
+Given some text, print out how many times each word appears in the text. This should count while being case insensitive.
+
+[Solution](word-count/word-count.go)
+

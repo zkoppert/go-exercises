@@ -34,3 +34,4 @@ jobs:
        cd even-end; go build -v .;
        cd ../fizzbuzz; go build -v .;
        cd ../max-val; go build -v .;
+       cd ../word-count; go build -v .;
