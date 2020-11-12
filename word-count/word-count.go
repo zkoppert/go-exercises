@@ -20,7 +20,7 @@ func main() {
 	// Iterate over words to get count
 	wordMap := map[string]int{}
 	for _, word := range wordArray {
-		//store the word and it's count to wordMap
+		// store the word and it's count to wordMap
 		wordMap[word]++
 	}
 
