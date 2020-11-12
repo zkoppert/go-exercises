@@ -35,3 +35,4 @@ jobs:
        cd ../fizzbuzz; go build -v .;
        cd ../max-val; go build -v .;
        cd ../word-count; go build -v .;
+       cd ../get-url-content-type; go build -v .;

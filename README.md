@@ -27,10 +27,17 @@ Given an unordered slice of values called nums, print the maximal value in the s
 
 [Solution](max-val/max-val.go)
 
-## Maximal value
+## Word Count
 **Problem**
 
 Given some text, print out how many times each word appears in the text. This should count while being case insensitive.
 
 [Solution](word-count/word-count.go)
+
+## Get URL content type
+**Problem**
+
+Write a function that gets a URL and returns the value of Content-Type response HTTP HEADER or error if a GET request cannot be performed.
+
+[Solution](get-url-content-type/get-url-content-type.go)
 
