@@ -41,3 +41,10 @@ Write a function that gets a URL and returns the value of Content-Type response 
 
 [Solution](get-url-content-type/get-url-content-type.go)
 
+## Circle
+**Problem**
+
+Define a circle struct which has two fields, centerof type point and length of type int. Also create a function the creates circle and returns a pointer to a new circle. A move method should also be created so that points can be moved, and an area method to calculate the area.
+
+[Solution](circle/circle.go)
+

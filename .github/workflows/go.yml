@@ -36,3 +36,4 @@ jobs:
        cd ../max-val; go build -v .;
        cd ../word-count; go build -v .;
        cd ../get-url-content-type; go build -v .;
+       cd ../circle; go build -v .;
