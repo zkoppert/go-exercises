@@ -11,16 +11,16 @@ func main() {
 		"Sew me a sail " +
 		"To catch me the Wind "
 
-	//Account for case-insensitivity
+	// Account for case-insensitivity
 	textLowercase := strings.ToLower(text)
 
-	//Split text into words
+	// Split text into words
 	wordArray := strings.Fields(textLowercase)
 
-	//Iterate over words to get count
+	// Iterate over words to get count
 	wordMap := map[string]int{}
 	for _, word := range wordArray {
-		//store the word and it's count to wordMap
+		// store the word and it's count to wordMap
 		wordMap[word]++
 	}
 

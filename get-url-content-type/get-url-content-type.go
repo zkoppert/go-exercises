@@ -5,8 +5,10 @@ import (
 	"net/http"
 )
 
+const url = "https://github.com/"
+
 func contentType(url string) (string, error) {
-	resp, err := http.Get(url)
+	resp, err := http.Get(url) //nolint:golint,G107
 	if err != nil {
 		fmt.Printf("ERROR: %s\n", err)
 		return "", err
@@ -20,7 +22,6 @@ func contentType(url string) (string, error) {
 }
 
 func main() {
-	url := "https://github.com/"
 	contentTypeValue, getError := contentType(url)
 	if getError != nil {
 		fmt.Printf("ERROR: Unable to GET URl\n")
