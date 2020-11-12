@@ -8,7 +8,7 @@ import (
 const url = "https://github.com/"
 
 func contentType(url string) (string, error) {
-	resp, err := http.Get(url)
+	resp, err := http.Get(url) //nolint:golint,G107
 	if err != nil {
 		fmt.Printf("ERROR: %s\n", err)
 		return "", err
