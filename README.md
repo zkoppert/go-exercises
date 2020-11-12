@@ -1,6 +1,6 @@
 # go-exercises
 
-![CodeQL](https://github.com/zkoppert/go-exercises/workflows/CodeQL/badge.svg) ![Go build](https://github.com/zkoppert/go-exercises/workflows/Go%20build/badge.svg)
+![CodeQL](https://github.com/zkoppert/go-exercises/workflows/CodeQL/badge.svg) ![Go build](https://github.com/zkoppert/go-exercises/workflows/Go%20build/badge.svg) ![Lint Code Base](https://github.com/zkoppert/go-exercises/workflows/Lint%20Code%20Base/badge.svg)
 
 ## fizzbuzz
 **Problem**
